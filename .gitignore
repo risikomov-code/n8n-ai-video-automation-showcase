@@ -1,0 +1,15 @@
+# Never commit local secrets or production exports
+.env
+.env.*
+*.secret
+*.key
+*.pem
+credentials*
+secrets*
+production/
+private/
+exports/
+*.mp3
+*.mp4
+*.webm
+*.mov
